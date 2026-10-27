@@ -1,4 +1,7 @@
 #include <iostream>
+#ifndef VENTA_H_INCLUDED
+#define VENTA_H_INCLUDED                            
+
 //#include "fecha.h"//
 using namespace std;
 
@@ -33,3 +36,5 @@ class venta {
         void cargar();
         void mostrar();
 };
+
+#endif // VENTA_H_INCLUDED
